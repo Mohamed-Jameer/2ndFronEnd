@@ -1,0 +1,98 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    height: 800px;
+    width: 1460px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    border-radius: 10px 10px;
+}
+
+.content {
+
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    width: 270px;
+    position: relative;
+    bottom: 3px;
+    height: 439px;
+}
+
+.para {
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.para1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    gap: 10;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+    font-size: 15px;
+
+}
+
+.para2 {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    font-weight: bolder;
+
+
+}
+
+.para3 {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 1px;
+
+}
+
+.para4 {
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    font-weight: bolder;
+}
+
+.para4 del {
+    color: black;
+    font-size: 10px;
+    position: relative;
+    bottom: 9px;
+    margin-left: 6px;
+    color: hsl(228, 12%, 48%);
+}
+
+.para5 {
+    position: relative;
+
+}
+
+.para5 button {
+    color: hsl(0, 0%, 100%);
+    background-color: rgb(1, 43, 1);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 7px;
+    width: 230px;
+    height: 45px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: hsl(158, 36%, 37%);
+}
+
+.para5 img {
+    color: hsl(0, 0%, 100%);
+    margin-top: px;
+    margin-right: 10px;
+    padding-top: px;
+}
